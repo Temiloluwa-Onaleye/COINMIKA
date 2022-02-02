@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+.home__body{
+    background-color: rgba(173, 137, 239, 0.5);
+    padding: 160px 0;
+}
+.body-section__container {
+    z-index: 1;
+    width: 100%;
+    margin-top: 99px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+.body__hero-row {
+    align-items: center;
+  }
+  
+  .body-section__row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  
+  .body-section__col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 698px;
+    width: 100%;
+    flex-basis: 50%;
+  }
+  
+  .body__hero-text-wrapper {
+    max-width: 698px;
+    height: 268px;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+  
+
+  .heading {
+    margin-bottom: 24px;
+    font-size: 64px;
+    line-height: 83.52px;
+    font-weight: 600;
+    font-family: poppins;
+    color: #212135;
+
+  }
+  
+  .dark {
+    color: #1c2237;
+  }
+  
+  .lightBg {
+    background-color: #fff;
+  }
+  
+  .body__hero-subtitle {
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  
+  .body__hero-img-wrapper {
+    max-width: 555px;
+    width: 100%;
+  }
+  
+  .body__hero-img {
+    max-width: 95%;
+    /* margin-top: 0; */
+    margin-right: 0;
+    margin-left: 10px;
+    padding-right: 0;
+  }
+  
+  img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .body-section__container {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .body__hero-text-wrapper {
+      padding-bottom: 65px;
+    }
+  
+    .body__hero-row {
+      row-gap: 2em;
+    margin: 5em auto 10em;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  .body__img-wrapper {
+    max-width: 100%;
+    width: 100%;
+    margin: 5em auto 0;
+    padding: 0;
+    text-align: center;
+    }
+
+    .secondImg {
+      margin: 5em auto 0 !important;
+      text-align: center !important;
+      padding: 0 !important;
+    }
+    .body__hero-img {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+      text-align: center;
+    }
+    .body-section__col {
+      max-width: 100%;
+      flex-basis: 100%;
+      text-align: center;
+    }
+  }

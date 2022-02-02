@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+
+.faq > h2{
+    margin-top: 156px;
+    margin-left: 123px;
+    font-size: 64px;
+    line-height: 83.2px;
+    font-weight: 600;
+    font-family: poppins;
+}
+
+.faq > h6{
+    margin-top: 41px;
+    margin-left: 123px;
+    font-family: poppins;
+    font-size: 24px;
+    line-height: 31.32px;
+    color: #212135;
+    
+}
+.faq > img {
+    margin-left: 120px;
+    margin-top: 33px;
+}
+
+.faq__boxes {
+    gap: 0.2em;
+    width: 100%;
+    display: flex;
+    max-width: 70%;
+    margin-top: 138px;
+    margin-left: 112px;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq__box {
+    width: 100%;
+    color: #212135;
+    display: flex;
+    font-size: 18px;
+    max-width: 398px;
+    min-height: 168px;
+    background: #AD89EF80;
+    line-height: 29.08px;
+    flex-flow: wrap column;
+    margin: 0 auto;
+    border-radius: 7px;
+    
+}
+.faq__box > h5{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23.49px;
+    padding:40px;
+    margin-left: 20px;
+    
+    
+}
+
+.faq__box > img {
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .faq__boxes {
+        flex-wrap: wrap;
+        max-width: 100%;
+        width: 100%;
+        padding: 1em;
+        margin-top: 60px;
+        margin-left: 0;
+        row-gap: 2em;
+    }
+    .faq > h2{
+        margin-left: 0;
+    }
+    
+    .faq > h6{
+        margin-left: 0;
+    }
+    .faq > img {
+        margin: 3.3em 0;
+        text-align: center;
+    }
+    
+}
